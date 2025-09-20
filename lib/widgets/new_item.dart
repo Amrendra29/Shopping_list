@@ -35,12 +35,19 @@ class _NewItemState extends State<NewItem> {
         }),
       );
 
-      print(response.body);
-      print(response.statusCode);
+      final Map<String, dynamic> resdata = json.decode(response.body);
+  
       if (!context.mounted) {
         return;
       }
-      Navigator.of(context).pop();
+      Navigator.of(context).pop(
+        GroceryItem(
+          id: resdata['name'],
+          name: _enteredvalue,
+          quantity: _enteredquantity,
+          category: _selectedcategory,
+        ),
+      );
     }
   }
 
