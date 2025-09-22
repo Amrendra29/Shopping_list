@@ -1,16 +1,31 @@
-# shopping_list
+# 🛒 Shopping List App
 
-A new Flutter project.
+A simple and clean **Shopping List App** built with **Flutter** and powered by **Firebase** for real-time data management.  
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
+- Add new shopping list items  
+- Delete existing items  
+- Sync data in real-time with Firebase  
+- Responsive and user-friendly UI  
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🎥 Demo
+[👉 Watch the demo video on LinkedIn](https://www.linkedin.com/posts/your-post-link)  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠️ Tech Stack
+- **Flutter** – UI & app logic  
+- **Firebase** – Backend data storage (add / delete / real-time sync)  
+
+---
+
+## 📂 Installation
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Amrendra29/Shopping_list.git
+   cd Shopping_list
